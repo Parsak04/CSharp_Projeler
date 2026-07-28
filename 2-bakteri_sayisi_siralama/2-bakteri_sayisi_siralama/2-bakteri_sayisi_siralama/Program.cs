@@ -10,6 +10,15 @@ namespace _2_bakteri_sayisi_siralama
     {
         static void Main(string[] args)
         {
+            
+            int bakeriSayisi = 1;
+            for (int i = 1; i <= 24; i++)
+            {    
+                Console.WriteLine($"{i}. Saat sonunda bakteri sayısı: {bakeriSayisi *= 2}");
+            }
+
+
+            Console.ReadLine();
         }
     }
 }

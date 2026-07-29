@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A8A8B75-3F49-443E-AB2D-B0E940580172}</ProjectGuid>
+    <ProjectGuid>{184AA87E-F540-4F65-B00E-289A87E4FBF9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2_UcunKatlariBulucu</RootNamespace>
-    <AssemblyName>_2_UcunKatlariBulucu</AssemblyName>
+    <RootNamespace>_2_UcunKatiBulucu</RootNamespace>
+    <AssemblyName>2-UcunKatiBulucu</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

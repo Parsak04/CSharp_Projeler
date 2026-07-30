@@ -14,4 +14,5 @@ Bu repository, C# diline adım attığım dönemde öğrendiklerimi pekiştirmek
 * **Kullanılan Yapılar:** `int[]` dizisi, `for` ve `foreach` döngüleri, `Array.Sort()` metodu, `int.Parse()` dönüşümü.
 
 * ### 1. Sayı Sıralama ve Analiz Uygulaması
-* Bu projemde ise kullanıcıdan alınan sayıların üçe bölünüp bölünemediğini, bölünüyorsa bölümünün cevabını veren ardındanda üçe tam bölünen sayıları küçükten büyüğe sıralı bir şekilde ekrana yazdırıyor.
+* Bu proje, kullanıcıdan alınan sayıların 3'e tam bölünüp bölünemediğini kontrol eder. 3'e bölünen sayıların bölme sonucunu hesaplar ve ardından bu sayıları küçükten büyüğe sıralı bir şekilde ekrana yazdırır.
+* **Kullanılan Yapılar:** `Bigİnteger[]` dizisi, mod alma operatörü (`%`), `Array.Sort()` metodu, döngüler ve koşullu ifadeler (`if-else`).

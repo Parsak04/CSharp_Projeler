@@ -15,7 +15,7 @@ Bu repository, C# diline adım attığım dönemde öğrendiklerimi pekiştirmek
  <details>
  <summary>📸 Ekran Görüntüsünü Görmek İçin Tıklayın</summary>
  <br>
- <img src="./1-sayi_siralama/Images/ekran_goruntusu.png" width="650">
+ <img src="./1-sayi_siralama/Images/ekran_goruntusu.png" width="750">
  </details>
 
 * ### 1. Sayı Sıralama ve Analiz Uygulaması
@@ -24,6 +24,6 @@ Bu repository, C# diline adım attığım dönemde öğrendiklerimi pekiştirmek
  <details>
  <summary>📸 Ekran Görüntüsünü Görmek İçin Tıklayın</summary>
  <br>
- <img src="./2-UcunKatlariBulucu/Images/ekran_goruntusu.png" with="650">
+ <img src="./2-UcunKatlariBulucu/Images/ekran_goruntusu.png" width="750">
  </details>
  

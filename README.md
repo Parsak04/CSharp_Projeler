@@ -15,7 +15,7 @@ Bu repository, C# diline adım attığım dönemde öğrendiklerimi pekiştirmek
  <details>
  <summary>📸 Ekran Görüntüsünü Görmek İçin Tıklayın</summary>
  <br>
- <img src="./1-sayi_siralama/Images/ekran_goruntusu.png" width="750">
+ <img src="./1-SayiSiralama/Images/ekran_goruntusu.png" width="750">
  </details>
 
 * ### 2. Üçün Katlarını Bulma ve Küçükten Büyüğe Sıralama

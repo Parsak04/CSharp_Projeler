@@ -15,55 +15,66 @@ namespace _3_SinavNotlariKayitUygulamasi
             Console.WriteLine();
             Console.WriteLine();
 
-            //Sınıv mevcudu ve öğrenci isimlerini alıyoruz
             Console.WriteLine("-------------------------------------------------");
-            Console.WriteLine();
             Console.Write("Sınıfınızda kaç öğrenci var?: ");
-            int studentCount = int.Parse(Console.ReadLine());
-            Console.WriteLine();
+            int sınıfMevcudu = int.Parse(Console.ReadLine());
             Console.WriteLine("-------------------------------------------------");
 
-            string[] studentNames = new string[studentCount];
-            double[] totalExamAvg = new double[studentCount];
+            string[] ogrenciAdi = new string[sınıfMevcudu];
+            double[] ortalama = new double[sınıfMevcudu];
 
-            for(int i = 0; i < studentCount; i++)
+            for (int i = 0; i < sınıfMevcudu; i++)
             {
                 Console.Write($"{i + 1}. öğrencinin adı: ");
-                studentNames[i] = Console.ReadLine();
+                ogrenciAdi[i] = Console.ReadLine();
 
-                double totalExamResult = 0;
+                double toplam = 0;
 
-                //Sınav notlarını alıyoruz
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.Write($"{studentNames[i]} adlı öğrenci {j + 1}. sınav notu: ");
+                    Console.Write($"{ogrenciAdi[i]} adlı öğrenci {j + 1}. sınav notu: ");
                     double value = double.Parse(Console.ReadLine());
-                    totalExamResult += value;
+                    toplam += value;
                 }
                 Console.WriteLine();
-                totalExamAvg[i] = totalExamResult / 3;
+                ortalama[i] = toplam / 3;
             }
+            
 
             Console.WriteLine();
             Console.WriteLine("----------- Öğrencilerin Ortalamaları -----------");
 
-            //Öğrencilerin ortalaması ve geçip kalma durumunu yazdırıyoruz
-            for (int i = 0;i < studentCount;i++)
+
+            for (int i = 0; i < sınıfMevcudu; i++)
             {
                 Console.WriteLine();
-                Console.WriteLine($"{studentNames[i]} adlı öğrencinin ortalaması: {totalExamAvg[i]:F2}");
-                if (totalExamAvg[i] >= 50)
+                Console.WriteLine($"{ogrenciAdi[i]} adlı öğrencinin ortalaması: {ortalama[i]:F2}");
+                if (ortalama[i] >= 50)
                 {
-                    Console.WriteLine($"{studentNames[i]} adlı öğrenci geçti.");
+                    Console.WriteLine($"{ogrenciAdi[i]} adlı öğrenci geçti.");
                 }
                 else
                 {
-                    Console.WriteLine($"{studentNames[i]} adlı öğrenci kaldı.");
+                    Console.WriteLine($"{ogrenciAdi[i]} adlı öğrenci kaldı.");
                 }
+
+                
+
             }
 
 
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("--------- Ortalama Notlarının Sıralaması ---------");
+            Console.WriteLine();
+            Array.Sort(ortalama, ogrenciAdi);
+            Array.Reverse(ortalama);
+            Array.Reverse(ogrenciAdi);
 
+            for (int i = 0; i < ortalama.Length; i++)
+            {
+                Console.Write($"{ogrenciAdi[i]}: {ortalama[i]:F2} ");
+            }
 
             Console.Read();
         }

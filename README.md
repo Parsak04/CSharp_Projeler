@@ -33,5 +33,5 @@ Bu repository, C# diline adım attığım dönemde öğrendiklerimi pekiştirmek
 <details>
 <summary>📸 Ekran Görüntüsünü Görmek İçin Tıklayın</summary>
 <br>
-<img src="./3-sinav_notlari_kayit/Images/ekran_goruntusu.png" width="750">
+<img src="./3-SinavNotlariKayitUygulamasi/Images/ekran_goruntusu.png" width="750">
 </details>

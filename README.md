@@ -1,7 +1,6 @@
 # 🚀 C# Eğitim Serüvenim ve Pratik Projelerim
 
 Bu repository, C# diline adım attığım dönemde öğrendiklerimi pekiştirmek amacıyla geliştirdiğim küçük çaplı konsol (CLI) uygulamalarını içermektedir.
-
 **Amacım:** C# dilinin temel yapılarını öğrenmek, mantığını kavramak ve teorik bilgileri pratik projelere dönüştürmektir.
 
 ---
